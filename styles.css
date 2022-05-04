@@ -1,0 +1,73 @@
+/* NAVBAR ---------------------------------------------- */
+body .navbar ul{
+    background-color: white;
+    text-align: right;
+    border-bottom: ridge;
+}
+
+body .navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* BODY ------------------------------------------------ */
+body{
+    background-color:aliceblue;
+}
+
+body fieldset{
+    margin:30px;
+    background-color: white;
+    border: whitesmoke;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 170px 170px 120px auto;
+}
+
+.grid-item-2 ul{
+    display: inline-block;
+}
+
+.grid-item-2 li {
+    list-style-type: none;
+    padding: 3px
+}
+
+/* BUTTON KONTAK DAN RESUME ---------------------------- */
+.grid-item .kontak{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:2px;
+    background-color: blue;
+    border:white;
+    border-radius: 5px;
+    color:white;
+}
+
+.grid-item .resume{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left:2px;
+    border-color:black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* FORM */
+body .form{
+    margin: 30px;
+}
+
+input {
+    width: 100%;
+}
